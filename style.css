@@ -1,0 +1,53 @@
+body {
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.block_about {
+	background: url('images/bg.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.block_descipt {
+	padding: 5%;
+}
+.block_descipt img {
+	margin: 0 1%;
+}
+.block_descript_info p {
+	padding: 0;
+	margin:0;
+}
+.block_descript_info i {
+	margin-left:1%;
+}
+.block_links, .block_gallery {
+	padding: 5%;
+}
+.block_links ul {
+	display: flex;
+	flex-direction: row;
+}
+.block_links li {
+	border-radius: 25px;
+	color: #333;
+	padding: 3% 25%;
+	margin: 5% 0;
+	border: 1px solid #333;
+/*	align-self: flex-end;*/
+}
+.block_links li:hover {
+	background: transparent;
+	color: #bbb;
+	border: 1px solid transparent;
+	transition: .2s;
+}
+.block_links li a {
+	color: #333;
+}
+.block_gallery .row {
+  margin: 15px;
+}
+.block_gallery .img-fluid:hover {
+	opacity: .5;
+}
