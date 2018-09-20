@@ -3,7 +3,7 @@ body {
 }
 
 .block_about {
-	background: url('images/bg.jpg');
+	background: url('images/3.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,15 +26,15 @@ body {
 }
 .block_links ul {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 .block_links li {
 	border-radius: 25px;
 	color: #333;
 	padding: 3% 25%;
-	margin: 5% 0;
+	margin: 3%;
 	border: 1px solid #333;
-/*	align-self: flex-end;*/
+	align-self: flex-end;
 }
 .block_links li:hover {
 	background: transparent;
@@ -51,3 +51,4 @@ body {
 .block_gallery .img-fluid:hover {
 	opacity: .5;
 }
+
